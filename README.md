@@ -4,9 +4,7 @@
 
 This interactive simulator explores the fascinating and complex mathematics of the three-body problem in celestial mechanics. Visualize and experiment with gravitational interactions between three massive bodies in a dynamic, real-time environment.
 
-![Three-Body Problem Simulation](assets/simulation-preview.png)
-
-## 🚀 Features
+## Features
 
 - Interactive GUI for configuring three-body systems
 - Real-time trajectory visualization
@@ -14,38 +12,12 @@ This interactive simulator explores the fascinating and complex mathematics of t
 - Customizable initial conditions
 - Energy and momentum conservation tracking
 
-## 📦 Prerequisites
+## Prerequisites
 
 - Python 3.8+
 - NumPy
 - Matplotlib
 - Tkinter
-
-## 🔧 Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/three-body-simulator.git
-cd three-body-simulator
-```
-
-2. Create a virtual environment:
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-```
-
-3. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-## 🎮 Usage
-
-Run the main simulator:
-```bash
-python three_body_simulator.py
-```
 
 ### Simulation Modes
 
@@ -53,7 +25,7 @@ python three_body_simulator.py
 - **Random Configuration**: Randomly generate initial conditions
 - **Custom Configuration**: Manually set mass, position, and velocity
 
-## 🧮 Mathematical Background
+## Mathematical Background
 
 The three-body problem is a classic challenge in celestial mechanics. Unlike the two-body problem, it does not have a general closed-form solution and exhibits chaotic behavior.
 
@@ -63,7 +35,7 @@ The three-body problem is a classic challenge in celestial mechanics. Unlike the
 - Sensitive dependence on initial conditions
 - Numerical integration complexities
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
@@ -71,22 +43,18 @@ The three-body problem is a classic challenge in celestial mechanics. Unlike the
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📊 Performance Considerations
+## Performance Considerations
 
 - Uses adaptive time-stepping
 - Implements gravitational softening
 - Handles numerical instabilities
 
-## 🎓 Learning Resources
+## Learning Resources
 
 - [Chaos: Making a New Science](https://www.goodreads.com/book/show/64341.Chaos)
 - [Three-Body Problem on Wikipedia](https://en.wikipedia.org/wiki/Three-body_problem)
 
-## 📜 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-## 🌟 Acknowledgments
+## Acknowledgments
 
 - Inspired by the works of Henri Poincaré
 - Numerical methods based on modern computational physics techniques
